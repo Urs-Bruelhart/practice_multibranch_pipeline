@@ -1,0 +1,17 @@
+node 'branch1' {
+        stage 'setup'{
+        echo 'Environment is set up'
+        }
+        
+        stage 'test'{
+        echo 'Environment is being tested'
+        }
+        
+        stage 'deploy'{
+        echo 'Environment is being deployed'
+        }
+        
+        stage 'cleanup'{
+        echo 'Environment is being cleaned up'
+        }
+}
